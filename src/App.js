@@ -498,8 +498,8 @@ function App() {
             />{' '}
           </Navbar.Brand>
           <DropdownButton variant="dark" align = "end" id="dropdown-basic-button" title="Select Wallet(s)" >
-              <Dropdown.Item href="#/action-1" button onclick={connectnami}>NamiWallet</Dropdown.Item>
-              <Dropdown.Item href="#/action-2" button onClick={connectmetamask} >Metamask</Dropdown.Item>
+              <Dropdown.Item href="#/action-1" onclick={connectnami} >NamiWallet</Dropdown.Item>
+              <Dropdown.Item href="#/action-2" onClick={connectmetamask} >Metamask</Dropdown.Item>
             </DropdownButton>
         </Container>
       </Navbar>
