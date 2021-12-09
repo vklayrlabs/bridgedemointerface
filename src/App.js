@@ -556,7 +556,7 @@ function App() {
                       />
                     </InputGroup>
                     <InputGroup className="mb-3">
-                      <InputGroup.Text id="basic-addon1">Amount of Ada</InputGroup.Text>
+                      <InputGroup.Text id="basic-addon1">Amount of Lovelace</InputGroup.Text>
                       <FormControl
                         value={bridgeAda} onChange={(ev) => {
                           // console.log(ev.target.value, /^[1-9]{0,40}$/.test(ev.target.value))
@@ -617,7 +617,7 @@ function App() {
                     </InputGroup> */}
 
                     <InputGroup className="mb-3">
-                      <InputGroup.Text id="basic-addon1">Amount of Token</InputGroup.Text>
+                      <InputGroup.Text id="basic-addon1">Amount of Token(s)</InputGroup.Text>
                       <FormControl
                         value={withdrawalTokenAmt}
                         onChange={(ev) => {
